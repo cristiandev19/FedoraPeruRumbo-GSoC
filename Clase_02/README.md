@@ -28,7 +28,7 @@ int main(int argc, char const *argv[]){
 
 ###Despues este programa se manda a gcc
 
-[img1]: /imgs/imagen1.jpg "Se manda el archivo .c al gcc"
+![img1]: /imgs/imagen1.jpg "Se manda el archivo .c al gcc"
 
 ####NOTA: ¿Que es gcc?
 
@@ -51,7 +51,7 @@ La respues es que para compilar el programa trae los archivos de las librerias q
 ###Despues tendremos que enlazar el archivo que se genero(.o) con un archivo que usaremos para ejecutar el programa
 
 
-[img2]: /imgs/imagen2.jpg "Se enlaza el archivo .o al ejecutable"
+![img2]: /imgs/imagen2.jpg "Se enlaza el archivo .o al ejecutable"
 
 
 3.Tercer paso
@@ -60,7 +60,7 @@ La respues es que para compilar el programa trae los archivos de las librerias q
 ###Una vez ya obtenido el archivo ejecutable se procede a llamarlo
 
 
-[img3]: /imgs/imagen3.jpg "Se ejecuta el programa"
+![img3]: /imgs/imagen3.jpg "Se ejecuta el programa"
 
 
 
@@ -82,7 +82,7 @@ int main(int argc, char const *argv[]){
 
 Procedemos a compilarlo porque ya sabemos como se hace.
 
-[img4]: /imgs/imagen4.jpg "Busqueda de errores"
+![img4]: /imgs/imagen4.jpg "Busqueda de errores"
 
 Y nos sale esto. 
 Esto nos sale porque :
@@ -98,7 +98,7 @@ Ademas que nos sale un mensaje de error que nos da informacion acerca del error
 
 El codigo esta en example_04
 
-[img5]: /imgs/imagen5.jpg "Archivo makefile llamada"
+![img5]: /imgs/imagen5.jpg "Archivo makefile llamada"
 
 
 
