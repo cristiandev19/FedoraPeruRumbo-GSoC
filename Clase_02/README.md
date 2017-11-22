@@ -30,8 +30,12 @@ int main(int argc, char const *argv[]){
 
 /img/img1.jpg 
 
+/img/img1.png
 
 ![img1] /img/img1.jpg 
+
+![img1] /img/img1.png 
+
 
 "Se manda el archivo .c al gcc"
 
