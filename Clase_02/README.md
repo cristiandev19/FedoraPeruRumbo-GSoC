@@ -28,7 +28,7 @@ int main(int argc, char const *argv[]){
 
 ###Despues este programa se manda a gcc
 
-![img1]: /img/img1.jpg 
+![img1] (/img/img1.jpg )
 
 "Se manda el archivo .c al gcc"
 
