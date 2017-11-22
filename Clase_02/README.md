@@ -4,7 +4,7 @@ En nuestra 2da sesion nos enseñaron lo siguiente
 Nos hablaron acerca del ISO/IEC 9899:2011 
 ==================================================
 
-El cual especispecifica la forma y establece la interpretacion de los programas escritos en el lenguaje C.
+El cual especifica la forma y establece la interpretacion de los programas escritos en el lenguaje C.
 
 Tambien el como se compila y ejecuta un programa en C
 ================================================================
@@ -33,7 +33,7 @@ int main(int argc, char const *argv[]){
 /img/img1.png
 
 ![img1](https://github.com/pystudent1913/FedoraPeruRumbo-GSoC/edit/master/Images/img1.jpg)
-
+![img1](https://github.com/pystudent1913/FedoraPeruRumbo-GSoC/blob/master/Clase_02/img/img1.jpg)
 "Se manda el archivo .c al gcc"
 
 ####NOTA: ¿Que es gcc?
