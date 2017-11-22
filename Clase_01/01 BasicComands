@@ -1,0 +1,46 @@
+
+ls --> lista los archivos o directorios (LiSt)
+
+cd --> cambiar directorio(Change Directory) o ingresar al directorio
+
+pwd --> ruta actual de directorios
+
+mkdir --> crear directorios (MaKe DIRectory)
+
+cp --> copiar archivos o directorios (CoPy)
+
+
+mv --> mover o renombrar archivos o directorios(MoVe) 
+
+rm --> borrar archivos o directorios (ReMove)
+
+clear --> limpiar la pantalla 
+
+> 
+añade texto a un archivo, si el archivo existe lo sobreescribe 
+
+>> 
+añade texto al final de un archivo, si el archivo existe agrega siempre al final del mismo 
+
+touch --> creación de archivos vacíos 
+
+su –   --> loguearse como root 
+
+cat --> permite ver el contenido de un archivo
+
+tac --> al revez del cat muestra de abajo para arriba 
+
+man --> IMPORTANTE! nos permite ver la referencia de cualquier comando (MANual) incluso el manual mismo
+  su modo de uso es man (comando que queremos consultar)
+
+grep --> filtra palabras en un texto y muestra las que tengan dicha palabra
+
+head --> muestra las primeras lineas de un archivo more 
+  se puede usar ... head -n --> n = al numero de lineas que quieres ver desde arriba hasta abajo
+
+tail --> hace lo mismo que head pero desde abajo (se pueden mezclar de maneras muy interesantes)
+  se puede usar ... tail -n --> n = al numero de lineas que quieres ver desde abajo hasta arriba
+
+less --> permite ver la informacion de un archivo de modo interactivo, osea podemos subir o bajar la posicion del texto 
+
+

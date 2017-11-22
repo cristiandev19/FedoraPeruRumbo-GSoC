@@ -1,0 +1,39 @@
+
+exit + i --> para entrar al MODO INSERTAR nos permite escribir normalmente
+
+exit + o --> inserta un espacio debajo de la linea actual
+
+exit + shift + o --> inserta un espacio arriba de la linea actual
+
+exit + shift ´+ g --> nos lleva a la ultima linea
+
+/palabra --> busca la palabra descrita en el texto y la sombrea
+
+exit + dd --> borra una linea
+
+exit + n --> nos lleva a la siguiente coincidencia de busqueda cuando buscamos palabras
+
+exit + yy --> copia una linea
+  se puede usar la de la sgte manera...
+    y + (n) + y --> copia n lineas desde la linea actual hacia abajo y las copia
+    
+exit + p --> pega la linea ya copiada   
+  se puede usar la de la sgte manera...
+    (n) + p --->  pega la(s) lineas copiadas n veces
+    
+exit + u --> deshace la ultima accion
+
+exit + :q --> sale del vim sin guardar 
+
+exit + :!q --> sale del vim inmediatamente sin preguntar o pedir una confirmacion
+
+exit ':wq --> guarda el archivo y cierra el vim
+
+UNA FUNCION MUY INTERESANTE
+
+exit + :1,$s/busqueda/reemplaza/g 
+  --> busqueda es la palabra que queremos reemplazar , reemplaza es la palabra que reemplazaremos
+  
+:set number --> nos deja ver los numeros de las lineas al costado
+
+exit + dG --> elimina todo hasta la ultima linea (desde la linea actual hasta el final)
