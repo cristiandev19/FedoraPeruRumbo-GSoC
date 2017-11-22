@@ -1,10 +1,13 @@
-#En nuestra 2da sesion nos enseñaron lo siguiente
+En nuestra 2da sesion nos enseñaron lo siguiente
+================================================
 
 ##Nos hablaron acerca del ISO/IEC 9899:2011 
+==================================================
 
 El cual especispecifica la forma y establece la interpretacion de los programas escritos en el lenguaje C.
 
 ##Tambien el como se compila y ejecuta un programa en C
+================================================================
 
 
 1.Primer paso
@@ -36,6 +39,7 @@ El GNU Compiler Collection (colección de compiladores GNU) es un conjunto de co
 -----------------------
 
 ###Despues de mandar el archivo .c al gcc nos devolvera otro con la extension .o
+
 
 El cual se crea despues de que se compila el codigo exitosamente(sin errores).
 
@@ -90,6 +94,7 @@ Ademas que nos sale un mensaje de error que nos da informacion acerca del error
  
 
 ## tambien aprendimos como crear un archivo makefile para automatizar el proceso de compilado y ejecutado
+===========================================================================================================
 
 El codigo esta en example_04
 
