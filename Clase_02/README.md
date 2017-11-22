@@ -32,10 +32,7 @@ int main(int argc, char const *argv[]){
 
 /img/img1.png
 
-![img1] /img/img1.jpg 
-
-![img1] /img/img1.png 
-
+![img1](https://github.com/pystudent1913/FedoraPeruRumbo-GSoC/edit/master/Images/img1.jpg)
 
 "Se manda el archivo .c al gcc"
 
@@ -60,7 +57,7 @@ La respues es que para compilar el programa trae los archivos de las librerias q
 ###Despues tendremos que enlazar el archivo que se genero(.o) con un archivo que usaremos para ejecutar el programa
 
 
-![img2]: /img/img2.jpg 
+![img2](https://github.com/pystudent1913/FedoraPeruRumbo-GSoC/edit/master/Images/img2.jpg)
 
 "Se enlaza el archivo .o al ejecutable"
 
@@ -71,7 +68,7 @@ La respues es que para compilar el programa trae los archivos de las librerias q
 ###Una vez ya obtenido el archivo ejecutable se procede a llamarlo
 
 
-![img3]: /img/img3.jpg 
+![img3](https://github.com/pystudent1913/FedoraPeruRumbo-GSoC/edit/master/Images/img3.jpg)
 
 "Se ejecuta el programa"
 
@@ -95,7 +92,7 @@ int main(int argc, char const *argv[]){
 
 Procedemos a compilarlo porque ya sabemos como se hace.
 
-![img4]: /img/img4.jpg 
+![img4](https://github.com/pystudent1913/FedoraPeruRumbo-GSoC/edit/master/Images/img4.jpg)
 
 "Busqueda de errores"
 
@@ -113,7 +110,7 @@ Ademas que nos sale un mensaje de error que nos da informacion acerca del error
 
 El codigo esta en example_04
 
-![img5]: /img/img5.jpg 
+![img5](https://github.com/pystudent1913/FedoraPeruRumbo-GSoC/edit/master/Images/img5.jpg)
 
 "Archivo makefile llamada"
 
