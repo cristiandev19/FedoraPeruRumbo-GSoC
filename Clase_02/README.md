@@ -1,5 +1,7 @@
-En nuestra 2da sesion nos enseñaron lo siguiente
-================================================
+En nuestra 2da sesion nos enseñaron las siguientes cosas 
+====================================================
+
+
 
 Nos hablaron acerca del ISO/IEC 9899:2011 
 ==================================================
@@ -133,7 +135,7 @@ C/C++ y Java,pag 233)
 
 # Para enterder mejor haremos unos pequeños usos de estos
 
-![img1](https://github.com/pystudent1913/FedoraPeruRumbo-GSoC/blob/master/Clase_02/img/Esquemaunteros2.jpg)
+![img1](https://github.com/pystudent1913/FedoraPeruRumbo-GSoC/blob/master/Clase_02/img/Esquemapunteros2.jpg)
 
 # Y los compilaremos 
 
