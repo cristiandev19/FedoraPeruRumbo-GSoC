@@ -114,5 +114,62 @@ El codigo esta en example_04
 
 
 
+Estudiamos tambien los punteros en C
+====================================
+
+Hoy aprendimos que son los punteros y como usarlos :D
+
+
+"Los apuntadores son variables cuyos valores son direcciones de memoria. Por lo general, una variable con-
+tiene directamente un valor específico. Por otro lado, un apuntador contiene la dirección de una variable que
+contiene un valor específico. En este sentido, el nombre de una variable hace referencia directa a un valor, y
+un apuntador hace referencia indirecta a un valor."
+-Libro Deitel &Deitel(CÓMO PROGRAMAR EN
+C/C++ y Java,pag 233)
+
+# Para empezar veremos como se declara un puntero 
+
+![img1](https://github.com/pystudent1913/FedoraPeruRumbo-GSoC/blob/master/Clase_02/img/Esquemapunteros.jpg)
+
+# Para enterder mejor haremos unos pequeños usos de estos
+
+![img1](https://github.com/pystudent1913/FedoraPeruRumbo-GSoC/blob/master/Clase_02/img/Esquemaunteros2.jpg)
+
+# Y los compilaremos 
+
+![img1](https://github.com/pystudent1913/FedoraPeruRumbo-GSoC/blob/master/Clase_02/img/Ejecutado.png)
+
+
+
+Y estructuras 
+==================
+
+"Las estructuras son tipos de datos derivados, que se construyen por medio de objetos de otros tipos. Conside-
+re la siguiente definición de una estructura:
+
+struct carro {
+	char ruedas;
+	char timon;
+};
+
+La palabra reservada struct introduce la definición de una estructura. El identificador carta es la etiqueta
+de la estructura, la cual da nombre a la definición de la estructura y se utiliza con la palabra reservada struct
+para declarar variables de tipo estructura."
+-Deitel & Deitel(CÓMO PROGRAMAR EN
+C/C++ y Java,pag 355)
+
+
+Un ejemplo de estructura visto en clase.
+
+![img1](https://github.com/pystudent1913/FedoraPeruRumbo-GSoC/blob/master/Clase_02/img/Estructuras1.png)
+
+Y su respectiva compilacion.
+
+![img1](https://github.com/pystudent1913/FedoraPeruRumbo-GSoC/blob/master/Clase_02/img/Compilacion.png)
+
+#NOTA: El codigo completo se encuentra en example_04 hello_structs_01.c
+
+
+
 
 
