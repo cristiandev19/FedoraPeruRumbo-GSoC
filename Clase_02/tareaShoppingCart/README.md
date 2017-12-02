@@ -1,3 +1,24 @@
+Este es mi codigo probablemente antes de algunas actualizaciones pero solo quiero 
+escribir esto a modo de explicacion de que hace
+
+
+hay un menu principal de 3 opciones -> las cuales tienen otras subopciones por decirlas asi
+
+
+la opcion 1 del menu principal -> es para el manejo de productos 
+	dentro de esta tiene 2 subopciones las cuales son:
+	-Agregar producto
+	-Ver productos actuales
+
+la opcion 2 del menu principal -> es para pasar los productos desde lista "virtual" a los ficheros --> lo que hace es preguntar que productos quieres pasar a la factura	
+
+la opcion 3 --> es la que crea la factura o el fichero por asi decirlo 
+	tiene dos opciones 
+	-Agregar producto seleccionado al fichero
+	-Ver los productos que tenemos en el fichero
+
+
+
 #include<stdio.h>
 #include<string.h>
 
