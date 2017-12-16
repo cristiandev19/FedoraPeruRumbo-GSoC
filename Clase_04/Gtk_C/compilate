@@ -1,0 +1,5 @@
+gcc $(pkg-config --cflags gtk+-3.0) $(pkg-config --cflags webkitgtk+-2.0) -o win^Cw02 window02.c $(pkg-config --libs gtk+-3.0) $(pkg-config --libs webkitgtk+-2.0)
+
+
+gcc $(pkg-config --cflags gtk+-3.0) -o win02 win02.c $(pkg-config --libs gtk+-3.0) 
+ 

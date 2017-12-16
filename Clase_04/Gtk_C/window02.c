@@ -1,5 +1,7 @@
 #include <gtk/gtk.h>
-#include<stdio.h>
+//#include <webkit2/webkit2.h>
+
+// webkit
 
 static void
 go_to_the_page (GtkWidget *widget, gpointer   data)
@@ -7,29 +9,48 @@ go_to_the_page (GtkWidget *widget, gpointer   data)
   g_print ("Start to Learn\n");
 }
 
-void
-gtk_widget_destroy (GtkWidget *widget);
+//void
+//gtk_widget_destroy (GtkWidget *widget);
 
 
-static void output_state (GtkToggleButton *source, gpointer user_data) {
-	//printf ("Active: %d\n", gtk_toggle_button_get_active (source));
-	gboolean val = gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(source));
-	if(val){
-		printf("por qué no sale system :c\n");
-		GtkWidget *button3;
-		button3 = gtk_button_new_with_label ("Learn");
-		g_signal_connect (button1, "clicked", G_CALLBACK (go_to_the_page), checkbutton1);
-		gtk_grid_attach (GTK_GRID (grid), button3, 0, 3, 3, 3);
+// static void output_state (GtkToggleButton *source, gpointer user_data) {
+// 	//printf ("Active: %d\n", gtk_toggle_button_get_active (source));
+// 	gboolean val = gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(source));
+// 	if(val){
+// 		printf("por qué no sale system :c\n");
+// 		GtkWidget *button3;
+// 		button3 = gtk_button_new_with_label ("Learn");
+// 		g_signal_connect (button1, "clicked", G_CALLBACK (go_to_the_page), checkbutton1);
+// 		gtk_grid_attach (GTK_GRID (grid), button3, 0, 3, 3, 3);
 	
-	}
+// 	}
 
-	// if (gtk_toggle_button_get_active (source) == 1){
+
+void openUrl (GtkWidget *widget, gpointer *source){
+	gboolean val =  gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(source));
+	if (val){
+		GtkWidget *webbrowser = gtk_windows_new(GTK_WINDOWS_TOPLEVEL);
+		GtkWidget *scrollerwiew = gtk_scroled_window_new(NULL,NULL);
+		GtkWidget *webview  = webkit_web_view_new();
+		gtk_container_add (GTK_CONTAINER(scrollerwiew), webview); 
+		gtk_container_add (GTK_CONTAINER(webbrowser),scrollerwiew)
+		const gchar *resource = gtk_button_get_label(GTK_BUTTON(source));
+		if(g_strcmp(resource,"Java") == 0){
+			webkit_web_view_load_uri(WEBKIT_WEB_VIEW(webview),"http:www.google.com");
+		}
+
+		gtk_window_set_default_size(GTK_WINDOW(webbrowser),400,300);
+		gtk_widget_show_all(webbrowser);
+	}
+}
+
+// if (gtk_toggle_button_get_active (source) == 1){
 	// 	printf ("verdadero");
 	// }
 	// else{
  //  		printf ("falso");
 	// }
-}
+//}
 
 //void activeToggle(val){
 //	if (val = TRUE){
