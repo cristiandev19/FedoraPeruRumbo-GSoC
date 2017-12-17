@@ -22,8 +22,8 @@ class GtkListBoxObj(Gtk.Window):
 		link1 = Gtk.LinkButton("https://www.google.com","Google")
 
 		hbox = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=50)
-		row.add(hbox)
 		vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+		row.add(hbox)
 		vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
 		vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
 		vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)

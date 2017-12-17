@@ -98,9 +98,6 @@ int main(int argc, char *argv[])
 //	gtk_container_add (GTK_CONTAINER (grid), GTK_WIDGET (label3), 0 , 2 , 1, 1);
 //	gtk_container_add (GTK_CONTAINER (grid), GTK_WIDGET (label4), 0 , 3 , 1, 1);
 	//gtk_grid_attach (GTK_GRID (grid), button, 0, 2, 1, 1);
-
-	g_signal_connect (button2, "clicked", G_CALLBACK (gtk_main_quit), NULL);
-    g_signal_connect (win, "destroy", G_CALLBACK (gtk_main_quit), NULL);
 	// container
 
 	gtk_widget_show_all (GTK_WIDGET (win));
