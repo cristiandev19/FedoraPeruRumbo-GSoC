@@ -22,7 +22,7 @@ por lo que es valido suponer en los futuras futuras actualizaciones habra mas. :
 PROXIMAMENTE mas...
 
 
-
+https://wiki.gnome.org/Hackfests/PeruRumboGSoC2018
 
 
 
